@@ -21,41 +21,41 @@
     <ClCompile Include="hello.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stb_image.cpp">
+    <ClCompile Include="libs\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="libs\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader_s.h">
+    <ClInclude Include="shaders\shader_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera.h">
+    <ClInclude Include="utils\camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stb_image.h">
+    <ClInclude Include="libs\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="3.3.shader.fs">
+    <None Include="shaders\3.3.shader.fs">
       <Filter>Shader Files</Filter>
     </None>
-    <None Include="3.3.shader.vs">
+    <None Include="shaders\3.3.shader.vs">
       <Filter>Shader Files</Filter>
     </None>
-    <None Include="3.3.shader_yellow.fs">
+    <None Include="shaders\3.3.shader_yellow.fs">
       <Filter>Shader Files</Filter>
     </None>
     <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="container.jpg">
+    <Image Include="resources\container.jpg">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="awesomeface.png">
+    <Image Include="resources\awesomeface.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
