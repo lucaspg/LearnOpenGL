@@ -139,8 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
-    <None Include="shaders\shader.fs" />
-    <None Include="shaders\shader.vs" />
+    <None Include="shaders\colors.fs" />
+    <None Include="shaders\colors.vs" />
+    <None Include="shaders\light_cube.fs" />
+    <None Include="shaders\light_cube.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\camera.h" />
