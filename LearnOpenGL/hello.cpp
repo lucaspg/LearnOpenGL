@@ -211,6 +211,7 @@ int main()
 
         // also draw the lamp object
         lightCubeShader.use();
+		lightCubeShader.setVec3("lightColor", lightColor);
         lightCubeShader.setMat4("projection", projection);
         lightCubeShader.setMat4("view", view);
         model = glm::mat4(1.0f);
